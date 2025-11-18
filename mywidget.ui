@@ -16,21 +16,43 @@
   <property name="styleSheet">
    <string notr="true">QWidget {
     font-size: 11pt;
+    background-color: #f0f0f0;
 }
 
 QPushButton {
     min-width: 80px;
     min-height: 30px;
     padding: 5px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+QPushButton:hover {
+    background-color: #45a049;
+}
+
+QPushButton:pressed {
+    background-color: #3d8b40;
 }
 
 QLineEdit {
     min-height: 25px;
     padding: 3px;
+    background-color: white;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
 }
 
 QLabel {
     min-width: 60px;
+}
+
+QTableWidget {
+    background-color: white;
+    alternate-background-color: #f9f9f9;
+    gridline-color: #d0d0d0;
 }</string>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout">
